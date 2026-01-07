@@ -1,0 +1,1 @@
+# NBODY6-inference-workspace
