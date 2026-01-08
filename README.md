@@ -1,1 +1,3 @@
-# NBODY6-inference-workspace
+# NBODY6 Inference Workspace
+
+This repository provides tools to transform raw [`NBODY6`](https://github.com/nbodyx/Nbody6) simulation outputs into analysis-ready datasets and train machine learning models to infer star cluster properties from observable stellar features. The simulation data is sourced from [*Dinnbier et al.* 2022](https://ui.adsabs.harvard.edu/abs/2022A&A...659A.169D). This project was developed as part of my Master's thesis at the University of Liverpool.

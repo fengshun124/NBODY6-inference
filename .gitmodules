@@ -1,0 +1,8 @@
+[submodule "data-pipeline"]
+	path = data-pipeline
+	url = yifan.github.com:fengshun124/NBODY6-data-pipeline
+	branch = main
+[submodule "machine-learning"]
+	path = machine-learning
+	url = yifan.github.com:fengshun124/NBODY6-machine-learning
+	branch = main
