@@ -28,3 +28,20 @@ Python 3.12+ with the following packages (see [`requirements.txt`](./requirement
 - `pot`
 - `astropy`
 - `pyarrow`
+
+## Getting Started
+
+- Cloning the repository:
+
+  ```bash
+  git clone --recurse-submodules https://github.com/fengshun124/NBODY6-inference.git
+  ```
+
+- Install the required packages for both data pipeline and machine learning:
+
+  ```bash
+  cd ./NBODY6-inference
+  pip install -r requirements.txt
+  ```
+
+Please refer to the respective READMEs in the [`data-pipeline/`](./data-pipeline/README.md) and [`machine-learning/`](./machine-learning/README.md) directories for detailed instructions on setting up the environment, preparing data, training models, and evaluating results.
