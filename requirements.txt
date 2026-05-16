@@ -9,7 +9,7 @@ pot==0.9.6.post1
 pyarrow==21.0.0
 python-dotenv==1.2.1
 pytorch_lightning==2.5.2
-scikit_learn==1.8.0
+scikit-learn==1.8.0
 torch==2.7.1
 torchmetrics==1.7.3
 tqdm==4.67.1
