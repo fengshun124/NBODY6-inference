@@ -1,12 +1,15 @@
 # NBODY6 Inference Workspace
 
-This workspace turns raw [`NBODY6`](https://github.com/nbodyx/Nbody6) simulation outputs into analysis-ready datasets and machine-learning experiments for star cluster property inference. The simulation data source is [*Dinnbier et al.* (2022)](https://ui.adsabs.harvard.edu/abs/2022A&A...659A.169D). This project was developed as part of my Master's thesis at the University of Liverpool.
+NBODY6-inference is a research workspace for converting raw [`NBODY6`](https://github.com/nbodyx/Nbody6) star-cluster simulation outputs into analysis-ready datasets and machine-learning experiments for cluster property inference. It includes tools for parsing simulation outputs, assembling synchronised snapshots, generating pseudo-observed catalogues, summarising statistics, and training inference models.
+
+The simulation data source is [*Dinnbier et al.* (2022)](https://ui.adsabs.harvard.edu/abs/2022A&A...659A.169D). This project was developed as part of my Master's thesis at the University of Liverpool.
 
 The NBODY6 simulation data used with this code are not distributed in this repository. I DO NOT have redistribution rights for these proprietary data. If you need the data for research, contact the original authors directly.
 
+
 The workspace is organised around two stages:
 
-1. `data-pipeline/` parses raw NBODY6 outputs, assembles synchronized snapshots, and generates pseudo-observed catalogues plus summary statistics.
+1. `data-pipeline/` parses raw NBODY6 outputs, assembles synchronised snapshots, and generates pseudo-observed catalogues plus summary statistics.
 2. `machine-learning/` builds model-ready datasets from those pipeline outputs and trains inference models.
 
 ## Repository Structure
